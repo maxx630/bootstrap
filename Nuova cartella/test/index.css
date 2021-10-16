@@ -1,0 +1,301 @@
+body {
+ font-family: 'Montserrat', sans-serif;
+
+    background-color: rgb(255, 255, 255) ;
+
+
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar .brand-navbar img:hover {
+    opacity: 0.7;
+}
+
+.navbar ul li.active>a {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.navbar ul {
+    padding: 0px 30px 0px 0px;
+}
+
+.navbar ul li a {
+    color: rgb(255, 251, 251);
+    margin: 10px 0px 0px 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-left: 3px solid #ffee00;
+    border-radius: 40px;
+}
+
+.navbar ul li a .fas {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.navbar ul li a:hover {
+    color: yellow !important;
+}
+
+.navbar ul li.active>a {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    
+}
+
+.iconStyle {
+    color: yellow;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*=====================================Slier============================================*/
+
+header .carousel-inner .item {
+    height: 100vh;
+}
+
+.carousel-caption {
+    padding-bottom: 130px;
+}
+
+.carousel-caption h1 {
+    font-size: 70px;
+    font-weight: 1000;
+    text-shadow: 3px 3px yellow;
+    text-transform: uppercase;
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+
+.carousel-caption p {
+    animation-delay: 1s;
+}
+
+.carousel-caption .btn {
+    animation-delay: 1s;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid rgb(27, 26, 26);
+    color: white;
+    margin-top: 20px;
+    animation-duration: 2s;
+}
+
+.carousel-control-prev {
+    width: 48px;
+    height: 48px;
+    top: auto;
+    bottom: 0;
+    font-size: 2rem;
+}
+
+.carousel-control-next {
+    width: 48px;
+    height: 48px;
+    top: auto;
+    bottom: 0;
+    font-size: 2rem;
+}
+
+/*=====================================Slier============================================*/
+
+@media only screen and (max-width:480px) {
+    .carousel-caption {
+     
+        margin-bottom: 20px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 20px;
+        font-weight: 1000;
+        text-shadow: 3px 3px #050505;
+          
+        text-transform: uppercase;
+        animation-delay: 1s;
+        animation-duration: 2s;
+    }
+
+    .carousel-caption p {
+        animation-delay: 0s;
+        font-size: 10px;
+    }
+
+    .carousel-caption .btn {
+        animation-delay: 5s;
+        border-radius: 20px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        margin-top: 5px;
+        animation-duration: 12s;
+        padding: 5px;
+        font-size: 10px;
+    }
+}
+/*social///////////////////////////////////////////*/
+#cont{
+    height: 30px;
+    width: 100%;
+  
+}
+
+#test{
+    font-size:20px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 0;
+    text-align: center;
+    height:100px;
+background-color:rgb(0, 0, 0);
+border: 1px solid rgb(12, 12, 12);
+color: #ffffff;
+width:100%;
+ animation: Wave 2s infinite;
+}
+
+
+
+@keyframes Wave {
+    0%{color: #15b000;
+        left: 0%;
+    }
+       50%{color:red;
+        left: 50%;
+    }
+    100%{color: yellow;
+        left: 100%;
+    }
+ 
+ 
+}
+
+
+input{
+ position: absolute;
+ top: 210%;
+ left: 30%;
+ transform: translate(-50%, - 50%);
+ width:15  0px;
+color:#FFF;
+border-radius: 45px;
+background-color:black;
+
+
+}
+
+
+.sonar-wrapper {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  padding: 8rem 0;
+  width:100%;
+  height:100%;
+  background-color:#f3f703;
+  margin-bottom: -30px;
+}
+
+/* The circle */
+.sonar-emitter {
+  position: relative;
+  margin: 0 auto;
+  width: 275px;
+  height: 275px;
+  border-radius: 9999px;
+  background-color:rgb(0, 0, 0);
+   margin-bottom: 250px;
+}
+
+/* the 'wave', same shape and size as its parent */
+.sonar-wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 9999px;
+  background-color: HSL(45,100%,50%);
+  opacity: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-color:rgb(27, 24, 24);
+}
+
+/*
+  Animate!
+  NOTE: add browser prefixes where needed.
+*/
+.sonar-wave {
+  animation: sonarWave 2s linear infinite;
+}
+
+@keyframes sonarWave {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+/*footer*/
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#000000;height:100%; padding:10px 0px 25px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:yellow; border:1px solid yellow; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+.fab {
+    box-sizing: border-box;
+    color: #ffee00;
+}
+a{
+  color: #7bff00;
+}
+.foote_bottom_ul_amrc li a {
+    color: rgb(255, 251, 251);
+    margin: 30px 30px 30px 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-left: 3px solid #ffee00;
+    border-radius: 40px;
+}

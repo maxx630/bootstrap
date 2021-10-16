@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none !important;
+
+
+
+}
+
+#img {
+  vertical-align: middle;
+  margin-top: -20px;
+  margin-left: 10px;
+  border: 1px solid #333;
+  height: 55px;
+  border-radius: 50px;
+
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #333;
+  background-color: #333;
+
+}
+
+.navbar-default {
+  background-color: #333;
+  border-color: #333;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fcf8e3;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ff9900;
+}
+
+/*gallery//////////////////////*/
+
+.btn:focus,
+.btn:active,
+button:focus,
+button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer {
+
+  display: block;
+}
+
+.thumb {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+
+}
+
+/*footer////////////////////////////*/
+
+
+.site-quick-support {
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+.section-white,
+.section-blue {
+  margin: 0;
+  padding: 80px 0;
+  display: block;
+  width: 100%;
+  clear: both;
+  background: #333;
+  text-align: center;
+  overflow: hidden;
+
+
+
+}
+
+.site-quick-support .contact-box {
+  float: left;
+  width: 100%;
+  border-radius: 12px;
+  height: 640px;
+  ;
+}
+
+.blue-purple-gredient {
+  background: #836aeb;
+  background: rgba(50, 187, 241, 1);
+  background: -moz-linear-gradient(-45deg, rgba(50, 187, 241, 1) 0%, rgba(166, 73, 233, 1) 68%, rgba(166, 73, 233, 1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(50, 187, 241, 1)), color-stop(68%,
+        rgba(166, 73, 233, 1)), color-stop(100%, rgba(166, 73, 233, 1)));
+  background: -webkit-linear-gradient(-45deg, rgba(50, 187, 241, 1) 0%, rgba(166, 73, 233, 1) 68%, rgba(166, 73, 233, 1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(50, 187, 241, 1) 0%, rgba(166, 73, 233, 1) 68%, rgba(166, 73, 233, 1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(50, 187, 241, 1) 0%, rgba(166, 73, 233, 1) 68%, rgba(166, 73, 233, 1) 100%);
+  background: linear-gradient(135deg, rgba(50, 187, 241, 1) 0%, rgba(166, 73, 233, 1) 68%, rgba(166, 73, 233, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#32bbf1', endColorstr='#a649e9', GradientType=1);
+
+}
+
+.site-quick-support .site-info {
+  float: right;
+  padding: 80px 40px;
+}
+
+.site-quick-support h5 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.site-quick-support .site-info p {
+  float: left;
+  width: 100%;
+  font-size: 15px;
+  font-weight: normal;
+  color: #FFFFFF;
+  line-height: 1.7;
+  padding: 40px 0 40px 0;
+}
+
+.site-quick-support p,
+.site-quick-support address {
+  float: left;
+  color: #921e1e;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 1.125rem 0;
+  width: 100%;
+  font-style: normal;
+  margin: 0;
+  padding: 0 0 0 52px;
+  transition: 300ms linear;
+  transition-property: color;
+  line-height: 1.5;
+}
+
+a:hover,
+a:active,
+a:focus,
+a:visited {
+  text-decoration: none;
+  color: #a549e9;
+}
+
+a {
+  text-decoration: none;
+  color: #2b8dd9;
+  transition: 300ms linear;
+  transition-property: color;
+  display: inline-block;
+}
+
+.site-quick-support .site-box-row h6 {
+  float: left;
+  font-size: 21px;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.site-quick-support .site-box-row {
+  float: left;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.site-quick-support p,
+.site-quick-support address {
+  float: left;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 1.125rem 0;
+  width: 100%;
+  font-style: normal;
+  margin: 0;
+  padding: 0 0 0 52px;
+  transition: 300ms linear;
+  transition-property: color;
+  line-height: 1.5;
+}
+
+.site-quick-support .site-info.form {
+  border: none;
+}
+
+.site-quick-support h5 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #FFFFFF;
+
+}
+
+.site-contact-form {
+  padding: 40px 0 0 0;
+  display: block;
+  width: 100%;
+  clear: both;
+  margin: 0;
+
+}
+
+#color {
+  margin-top: 50px;
+  color: #ffffff;
+
+}
